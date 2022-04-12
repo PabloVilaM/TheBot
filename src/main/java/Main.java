@@ -30,7 +30,7 @@ import java.util.Optional;
 import java.io.File;
 
 public class Main {
-    final static String token = "OTUzNjI4MjQxNTE4ODIxNDI2.YjHVgg.IIZkDvLF6rBbaqWaEvCiTXxIjss";
+    final static String token = "OTUzNjI4MjQxNTE4ODIxNDI2.YjHVgg.IIZkDvLF6rBbaqWaEvCiTXxIj";
     final static DiscordClient client = DiscordClient.create(token); //Creamos un cliente de Discord (para el bot).
     final static GatewayDiscordClient gateway = client.login().block(); //Creamos el gateaway para que dicho cliente se logee.
 
